@@ -76,7 +76,7 @@
                     <td>{{ $product->getId() }}</td>
                     <td>{{ $product->getName() }}</td>
                     <td>
-                        <a class="btn btn-primary" href="">
+                        <a class="btn btn-primary" href="{{route('admin.product.edit', $product->getId())}}">
                             <i class="bi-pencil"></i>
                         </a>
                     </td>
